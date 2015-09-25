@@ -1,0 +1,36 @@
+Requirements Document 
+
+1 Introduction
+Project Name: Unit Converter (Unicon).
+This application will make transfers from one unit to another. Units will include: length, mass, temperature, time.
+However, the application does not provide the ability to transfer from one system to the other measures (for example, from English to Metric).
+
+2 User Requirements
+2.1 Software Interfaces
+This application does not require interaction with some extra serves, or databases.
+
+2.2 User Interfaces
+The user interface will be presented in the form of one of the main window, where we will select the buttons at the top of 
+the category for the translation we need units (length, time, mass, and temperature). Pressing we needed category, we will 
+move to another window where there will be two lines on the left and two on the right (right we choose from which we translate
+and what, for example, from degrees Celsius to Fahrenheit), and the left in the top line indicates the number and 
+at the bottom of the results. There are also buttons to "translate" and "swap".
+
+2.3 User Characteristics
+This application is suitable for all user groups. But it will be the most in demand among students and
+specialists in diversified industry work (engineers, biologists, chemists).
+
+2.4 Assumptions and Dependencies
+The program has no requirements that could not implement any modern computer.
+
+3 System Requirements
+3.1 Functional Requirements
+To install and run this application you need the following minimum requirements:
+1. Have the device by the operating system Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10.
+2. Minimum system requirements: Processor 512 MHz; 16 MB of RAM.
+3. Have the user keyboard and mouse. 
+In general, the program has no requirements that could not implement any modern computer.
+
+3.2 Non-Functional Requirements
+3.2.1 SOFTWARE QUALITY ATTRIBUTES
+The application will be useful for working with large quantities and just for efficiency, such as the transfer of data (of any value).
