@@ -1,7 +1,7 @@
 Requirements Document 
 
 1 Introduction
-Project Name: Unit Converter (Unicon).
+Project Name: Unit Converter (Unicon1.0).
 This application will make transfers from one unit to another. Units will include: length, mass, temperature, time.
 However, the application does not provide the ability to transfer from one system to the other measures (for example, from English to Metric).
 
@@ -25,11 +25,9 @@ The program has no requirements that could not implement any modern computer.
 
 3 System Requirements
 3.1 Functional Requirements
-To install and run this application you need the following minimum requirements:
-1. Have the device by the operating system Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10.
-2. Minimum system requirements: Processor 512 MHz; 16 MB of RAM.
-3. Have the user keyboard and mouse. 
-In general, the program has no requirements that could not implement any modern computer.
+  1) This application will offer a variety of categories of measured values to convert.
+  2) Selecting a category will be a selection of a particular measurement value (out of ) and enter a numerical value.
+  3) User should have possibility to move from one category to another, choose different value and numerical to convert.
 
 3.2 Non-Functional Requirements
 3.2.1 SOFTWARE QUALITY ATTRIBUTES
