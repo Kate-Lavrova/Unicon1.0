@@ -31,4 +31,8 @@ The program has no requirements that could not implement any modern computer.
 
 3.2 Non-Functional Requirements
 3.2.1 SOFTWARE QUALITY ATTRIBUTES
-The application will be useful for working with large quantities and just for efficiency, such as the transfer of data (of any value).
+The application converts a number from one type to the other variables:
+1) Reliability:
+This application should not cause any errors in the conversion, as well as the wrong type.
+2) Accuracy:
+If there should be no transfer of any errors, the result should be accurate.
