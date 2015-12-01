@@ -1,12 +1,15 @@
 Requirements Document 
 
+
 1 Introduction
 Project Name: Unit Converter (Unicon1.0).
 This application will make transfers from one unit to another. Units will include: Area, Digital Storage, Length, Temperature, Volume, Weight.
 
+
 2 User Requirements
 2.1 Software Interfaces
 This application does not require interaction with some extra serves, or databases.
+
 
 2.2 User Interfaces
 The user interface will be presented in the form of main window, where we will select the top of the
@@ -14,18 +17,22 @@ category relevant to translation units (Area, Digital Storage, Length, Temperatu
 For example: selecting the temperature we see at the bottom line to: Celsius, Fahrenheit, Kelvin. If we want to make a transfer, we will introduce one of the fields (in fact from which I want to become to translate) the value of digital! Optional add on demand !!! If we introduce the letter, then we pop up a warning errors that input is possible only digits! Comment! The user is allowed to perform only one operation at a time, and then clear the results, run another Operation of. If we introduce a time 2 digital values ​​in the two fields, the application will be taken as a basic value of that which is to be ahead of others (above). I mean, the conversion from the top down by priority.
 Downstairs there is also the "transfer" and "clean".
 
+
 2.3 User Characteristics
 This application is suitable for all user groups. But it will be the most in demand among students and
 specialists in diversified industry work (engineers, biologists, chemists).
 
+
 2.4 Assumptions and Dependencies
 The program has no requirements that could not implement any modern computer.
+
 
 3 System Requirements
 3.1 Functional requirements
 1) This application will offer different categories of measured values for the conversion.
 2) Select a category will be the choice of measurement values (of) and type the numeric value.
 3) The user should be able to choose any of the categories, and choose a subcategory, enter the numerical value of the function to clear the screen (current output).
+
 
 3.2 The non-functional requirements
 3.2.1 Software quality SIGNS
