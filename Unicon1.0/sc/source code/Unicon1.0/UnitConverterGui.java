@@ -260,6 +260,27 @@ public class UnitConverterGui extends JFrame
 
 
 
+	Measurement meas =
+					measurementFactory.getMeasurement(
+					(String)jcbMeasurementType.getSelectedItem());
+				MeasurementUnit unit = meas.findUnit(unitName);
+				double refValue = 0.0;
+				try {
+					refValue = unit.convertToReference(Double.parseDouble(value));
+				}
+				catch (NumberFormatException ex) {
+					ErrorMessage("A valid number must be entered!!!  " + ex.getMessage());
+					clearFields(true);
+					return;
+				}
+
+
+
+
+
+
+
+
 				Set<String> unitsSet = meas.getMeasurementUnitNames();
 				Iterator<String> unitsIter = unitsSet.iterator();
 
